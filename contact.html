@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Tawi Furniture</title>
+        <link rel="stylesheet" href="style.css"> 
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    </head>
+    <body class="contact-page">
+        <header>
+            
+            <nav>
+                <div class="logo">
+                    <h2>Tawi Furniture</h2>
+                </div>
+                <div class="navbar">
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="about.html">About us</a></li>
+                        <li><a href="product.html">Our Products</a></li>
+                        <li><a href="contact.html">Contact Us</a></li>
+                        <li><a href="terms.html">Terms and Conditions</a></li>
+                    </ul>
+                </div>
+            </nav>
+        </header>
+        <main class="contact-page">
+            <section class="contacts">
+                <h2>Contact Us</h2>
+                <p>If you have any questions or inquiries,please use the contact information provided or fill out the form provided below.</p>
+                <p>Feel free to reach out to us!</p>
+                <form action="submit_form.php" method="POST" class="contact-form">
+                    <label for="name">Name:</label><br>
+                    <input type="text" id="name" name="name" required><br><br>
+                    <label for="phone">Phone:</label><br>
+                    <input type="tel" id="phone" name="phone" required><br><br>
+
+                    <label for="email">Email:</label><br>
+                    <input type="email" id="email" name="email" required><br><br>
+
+                    <label for="message">Message:</label><br>
+                    <textarea id="message" name="message" rows="4" required></textarea><br><br>
+
+                    <button type="submit" class="c-btn">Send Message</button>
+                </form>
+                <div class="contact-info">
+                    <h3>Contact Information</h3>
+                    <p><i class="fas fa-map-marker-alt"></i> Address: 123 Furniture St, Nairobi, Kenya</p>
+                    <p><i class="fas fa-phone"></i> Phone: +254 567 345 890</p>
+                    <p><i class="fas fa-envelope"></i> Email: tawifurniture.co.ke.org
+            </section>
+            
+        </main>
+        <footer>
+            <p>&copy; 2025 Tawi Furniture</p>
+        </footer>
+         <script src="script.js"></script>
+</html>

@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Tawi Furniture</title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    </head>
+    <body>
+        <header class="product-header">
+            <nav>
+                <div class="logo">
+                    <h2>Tawi Furniture</h2>
+                </div>
+                <div class="navbar">
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="about.html">About us</a></li>
+                        <li><a href="product.html">Our Products</a></li>
+                        <li><a href="contact.html">Contact Us</a></li>
+                        <li><a href="terms.html">Terms and Conditions</a></li>
+                    </ul>
+                </div>
+    
+            </nav>
+             <div class="our-products">
+                    <h1>Our Products</h1>
+                    <p>Explore our wide range of furniture products designed to enhance your living spaces.</p>
+                </div>
+        </header>
+
+        <main class="product-page">
+            <section class="hot-deals">
+                <div class="hot-deals-header">
+                    <h2 class="topic">!Hot & Exciting Deals from our Previous Collection!</h2>
+                    <h3 class="topic2">Don't miss out on massive price drops</h3>
+                </div>
+                <div class="hot-deals-grid">
+                    <div class="hot-deal-item">
+                        <img src="images/img25.jpg" alt="Office Furniture">
+                        <h3>Office Set</h3>
+                        <p>Price: Ksh14,999</p>
+                        <button class="add-to-cart" data-id="17">Add to Cart</button>
+                    </div>
+                    <div class="hot-deal-item">
+                        <img src="images/img26.jpg" alt="Dining Room Furniture">
+                        <h3>Kitchen Stools</h3>
+                        <p>Price: Ksh17,999</p>
+                        <button class="add-to-cart" data-id="18">Add to Cart</button>
+                    </div>
+                    <div class="hot-deal-item">
+                        <img src="images/img27.jpg" alt="Office Furniture">
+                        <h3>Office Cabinets</h3>
+                        <p>Price: ksh10,000</p>
+                        <button class="add-to-cart" data-id="19">Add to Cart</button>
+                    </div>
+                    <div class="hot-deal-item">
+                        <img src="images/img28.jpg" alt="Living Room Furniture">
+                        <h3>Lounge Chairs</h3>
+                        <p>Price: Ksh7,000</p>
+                        <button class="add-to-cart" data-id="20">Add to Cart</button>
+                    </div>
+                    <div class="hot-deal-item">
+                        <img src="images/img29.jpg" alt="Dining Furniture">
+                        <h3>Circular Table</h3>
+                        <p>Price: ksh5,000</p>
+                        <button class="add-to-cart" data-id="20">Add to Cart</button>
+                    </div>
+                    <div class="hot-deal-item">
+                        <img src="images/img30.jpg" alt="Dining Furniture">
+                        <h3>Dining set</h3>
+                        <p>Price: ksh180,999</p>
+                        <button class="add-to-cart" data-id="21">Add to Cart</button>
+                    </div>
+                </div>
+                <div class="slideshow">
+                    <button class="prev" onclick="plusSlides(-1)">prev</button>
+                    <button class="next" onclick="plusSlides(1)">next</button>
+                </div>
+            </section>
+           
+            <section class="collection">
+                <h2>Our New Collection</h2>
+                <div class="filter-items">
+                    <label for ="category-filter">Shop by Category:</label>
+                    <select id="category-filter">
+                        <option data-filter="all">All</option>
+                        <option data-filter="living-room">Living Room</option>
+                        <option data-filter="bedroom">Bedroom</option>
+                        <option data-filter="office">Office</option>
+                        <option data-filter="outdoor">Outdoor</option>
+                        <option data-filter="dining">Dining Room</option>
+                    </select>
+                </div><br>
+                <div class="collection-grid" >
+                    <div class="collection-item" data-category="living-room">
+                        <img src="images/img7.jpg" alt="Living Room Furniture">
+                        <h3>Comfy Chairs</h3>
+                        <p>Stylish and comfortable furniture for your living room.</p>
+                        <p>Price: ksh20,499</p>
+                        <button class="add-to-cart" data-id="1">Add to Cart</button>
+
+                    </div>
+                    <div class="collection-item" data-category="living-room">
+                        <img src="images/img24.jpg" alt="Living Room Furniture">
+                        <h3>Leather Sofa</h3>
+                        <p>Elegant and durable furniture for your bedroom.</p>
+                        <p>Price: ksh 30,799</p>
+                        <button class="add-to-cart" data-id="2">Add to Cart</button>
+                    </div>
+                    <div class="collection-item" data-category="office">
+                        <img src="images/img20.jpg" alt="Office Furniture">
+                        <h3>Office Desk</h3>
+                        <p>Functional and stylish furniture for your office.</p>
+                        <p>Price: ksh32,199</p>
+                        <button class="add-to-cart" data-id="3">Add to Cart</button>
+                    </div>
+                    <div class="collection-item" data-category="outdoor">
+                        <img src="images/img10.jpg" alt="Outdoor Furniture">
+                        <h3>Outdoor Chair</h3>
+                        <p>Comfortable and weather-resistant furniture for your outdoor space.</p>
+                        <p>Price: ksh5,199</p>
+                        <button class="add-to-cart" data-id="4">Add to Cart</button>
+                    </div>
+                    <div class="collection-item" data-category="dining">
+                        <img src="images/img15.jpg" alt="Dining Room Furniture">
+                        <h3>Dining Table</h3>
+                        <p>Stylish and functional furniture for your dining.</p>
+                        <p>Price: ksh33,399</p>
+                        <button class="add-to-cart" data-id="5">Add to Cart</button>
+                    </div>
+                    <div class="collection-item" data-category="living-room">
+                        <img src="images/img11.jpg" alt="Living Room Furniture">
+                        <h3>Luxurious Sofa</h3>
+                        <p>Luxurious and comfortable furniture for your living room.</p>
+                        <p>Price: ksh32,899</p>
+                        <button class="add-to-cart" data-id="6">Add to Cart</button>
+                        
+
+                    </div>
+                    <div class="collection-item" data-category="bedroom">
+                        <img src="images/img12.jpg" alt="Bedroom Furniture">
+                        <h3>Nude bed</h3>
+                        <p>Spacious and stylish furniture for your bedroom.</p>
+                        <p>Price: ksh55,199</p>
+                        <button class="add-to-cart" data-id="7">Add to Cart</button>
+                    </div>
+                    <div class="collection-item" data-category="bedroom">
+                        <img src="images/img19.jpg" alt="Bedroom Furniture">
+                        <h3>Grey bed</h3>
+                        <p>Spacious and stylish furniture for your bedroom.</p>
+                        <p>Price: ksh50,099</p>
+                        <button class="add-to-cart" data-id="8">Add to Cart</button>
+                    </div>
+                    <div class="collection-item" data-category="outdoor">
+                        <img src="images/img18.jpg" alt="Outdoor Furniture">
+                        <h3>Outdoor Swing</h3>
+                        <p>Comfortable and ergonomic furniture for your outdoor space.</p>
+                        <p>Price: ksh100,199</p>
+                        <button class="add-to-cart" data-id="9">Add to Cart</button>
+                    </div>
+                    <div class="collection-item" data-category="outdoor">
+                        <img src="images/img17.jpg" alt="Outdoor Furniture">
+                        <h3>Patio Set</h3>
+                        <p>Stylish and durable furniture for your outdoor space.</p>
+                        <p>Price: ksh80,299</p>
+                        <button class="add-to-cart" data-id="10">Add to Cart</button>
+                    </div>
+                    <div class="collection-item" data-category="dining">
+                        <img src="images/img23.jpg" alt="Dining Room Furniture">
+                        <h3>Dining set</h3>
+                        <p>Stylish and functional furniture for your dining.</p>
+                        <p>Price: ksh61,149</p>
+                        <button class="add-to-cart" data-id="11">Add to Cart</button>
+                    </div>
+                    <div class="collection-item" data-category="living-room">
+                        <img src="images/img22.jpg" alt="Living Room Furniture">
+                        <h3>Sectional Sofa</h3>
+                        <p>Spacious and comfortable furniture for your living room.</p>
+                        <p>Price: ksh111,299</p>
+                        <button class="add-to-cart" data-id="12">Add to Cart</button>
+                    </div>
+                    <div class="collection-item" data-category="bedroom">
+                        <img src="images/img21.jpg" alt="Bedroom Furniture">
+                        <h3>Mahogany</h3>
+                        <p>Stylish and functional furniture for your bedroom.</p>
+                        <p>Price: ksh200,199</p>
+                        <button class="add-to-cart" data-id="13">Add to Cart</button>
+                    </div>
+                    <div class="collection-item" data-category="office">
+                        <img src="images/img16.jpg" alt="Office Furniture">
+                        <h3>Bookshelf and desk</h3>
+                        <p>Stylish and functional furniture for your office.</p>
+                        <p>Price: ksh220,299</p>
+                        <button class="add-to-cart" data-id="14">Add to Cart</button>
+
+                    </div>
+                    <div class="collection-item" data-category="">
+                        <img src="images/img8.jpg" alt="living-room Furniture">
+                        <h3>Living Room Set</h3>
+                        <p>Stylish and durable furniture for your space.</p>
+                        <p>Price: ksh130,899</p>
+                        <button class="add-to-cart" data-id="15">Add to Cart</button>
+                    </div>
+                    <div class="collection-item" data-category="dining">
+                        <img src="images/img6.jpg" alt="Dining Room Furniture">
+                        <h3>Simple Dining Set</h3>
+                        <p>Stylish and functional furniture for your dining.</p>
+                        <p>Price: ksh50,499</p>
+                        <button class="add-to-cart" data-id="16">Add to Cart</button>
+                    </div>
+            </section>
+            
+
+        </main>
+
+        <footer>
+            <p>&copy; 2025 Tawi Furniture</p>
+        </footer>
+         <script src="script.js"></script>
+</html>
